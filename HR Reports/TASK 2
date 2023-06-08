@@ -1,0 +1,5 @@
+Task 2: Create a report that displays the total number of employees in each department.
+Select department_name, Count(*) AS "isci sayi"
+from departments
+join employees using (department_id)
+group by department_name;
